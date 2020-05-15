@@ -1,58 +1,73 @@
-# My Enumerable
+# Project Name
 
-The Enumerable module in Ruby is an important part and they are part of the Core. Provides methods
-for working specifically with collections.
-The operation of some of the enumerable methods was replicated:
-- each
-- each_with_index
-- select
-- all?
-- any?
-- none?
-- count
-- map
-- inject
+> One paragraph statement about the project.
 
-## :package: Built With
+![screenshot](./app_screenshot.png)
 
-- Ruby
-- Rubocop
+Additional description about the project and its features.
+
+## Built With
+
+- Major languages,
+- frameworks,
+- technologies used
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
 
 ### Usage
 
-1) Clone the repository to your local machine
-```sh
-$ git clone https://github.com/mcervantes71/My_Enumerable.git
-```
+### Run tests
 
-2) cd into the directory
-```sh
-$ cd My_Enumerable
-```
+### Deployment
 
-3) Load the module. Note: make sure to prepend the current path
-```ruby
-require "./main.rb"
-```
 
-## :busts_in_silhouette: Author
 
-👤 **Martin Cervantes**
+## Authors
 
-- Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Gmail: [cervantes.martine](mailto:cervantes.martine@gmail.com)
+👤 **Author1**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+👤 **Author2**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues).
+Feel free to check the [issues page](issues/).
 
-## :star2: Show your support
+## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
