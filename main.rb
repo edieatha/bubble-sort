@@ -6,19 +6,23 @@
 # Bubble sort and Bubble sort by
 #
 def bubble_sort(array)
-  for i in (0...array.length - 1)
-    for i in (0...array.length - 1)
-      array[i], array[i + 1] = array[i + 1], array[i] if array[i] < array[i + 1]
+  array.length.times do
+    array.each_with_index do |value, i|
+      next if i == array.length - 1
+
+      array[i], array[i + 1] = array[i + 1], array[i] if value > array[i + 1]
     end
   end
   array
 end
 
 def bubble_sort_by(array)
-  for i in (0...array.length - 1)
-    for i in (0...array.length - 1)
-      value = yield(array[i], array[i + 1])
-      array[i], array[i + 1] = array[i + 1], array[i] if value.positive?
+  array.length.times do
+    array.each_with_index do |value, i|
+      next if i == array.length - 1
+
+      result = yield(value, array[i + 1])
+      array[i], array[i + 1] = array[i + 1], array[i] if result.positive?
     end
   end
   array
